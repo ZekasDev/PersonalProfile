@@ -110,7 +110,7 @@ ul {
 
 .aside .logo a span {
     font-family: 'Clicker Script';
-    font-family: 40px;
+    font-size: 40px;
 }
 
 .aside .logo a::before {
