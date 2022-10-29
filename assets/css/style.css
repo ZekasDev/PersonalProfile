@@ -509,6 +509,10 @@ h3.my-profession {
   position: relative;
 }
 
+h4.timeline-title  {
+  color: var(--skin-color);
+}
+
 .about .about-content .timeline .timeline-item {
   position: relative;
   padding-left: 37px;
