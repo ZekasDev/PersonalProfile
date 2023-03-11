@@ -1,0 +1,37 @@
+.logo {
+  position: relative;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  color: #302e4d;
+  letter-spacing: .2rem;
+
+    .logoPrefix {
+      font-family: "Clicker Script";
+    }
+    .logoSuffix {
+      font-family: "Times New Roman";
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      bottom: 0px;
+      left: 0px;
+      border-bottom: 5px solid red;
+      border-left: 5px solid red;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      top: 0px;
+      right: 0px;
+      border-top: 5px solid red;
+      border-right: 5px solid red;
+    }
+}
+
